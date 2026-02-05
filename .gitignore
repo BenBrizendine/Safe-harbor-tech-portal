@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.log
+.env
+*.db
+.streamlit/secrets.toml
+streamlit.log
+nohup.out

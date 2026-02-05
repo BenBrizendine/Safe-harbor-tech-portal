@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Portal - Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <header class="header">
+            <div class="logo">
+                <img src="logo.png" alt="Safe Harbor" style="height: 50px;">
+                <h1>Tech Portal</h1>
+            </div>
+            <div class="header-actions">
+                <span id="userName"></span>
+                <button class="btn-secondary" onclick="logout()">Logout</button>
+            </div>
+        </header>
+        
+        <div class="content">
+            <h2>Dashboard Coming Soon</h2>
+            <p>The Streamlit dashboard will be embedded here, or you can access it directly:</p>
+            <a href="http://localhost:8501" target="_blank" class="btn-primary">Open Dashboard</a>
+            
+            <div style="margin-top: 30px;">
+                <h3>Quick Links:</h3>
+                <ul>
+                    <li><a href="https://dashboard.meraki.com" target="_blank">Meraki Dashboard</a></li>
+                    <li><a href="https://unifi.ui.com" target="_blank">UniFi Console</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Check auth
+        function checkAuth() {
+            const session = localStorage.getItem('tech_session');
+            if (!session) {
+                window.location.href = 'index.html';
+                return false;
+            }
+            
+            try {
+                const sessionData = JSON.parse(session);
+                const now = Date.now();
+                const sessionAge = now - sessionData.loginTime;
+                
+                if (sessionAge < 12 * 60 * 60 * 1000) {
+                    document.getElementById('userName').textContent = `👤 ${sessionData.username}`;
+                    return true;
+                } else {
+                    localStorage.removeItem('tech_session');
+                    window.location.href = 'index.html';
+                    return false;
+                }
+            } catch (e) {
+                localStorage.removeItem('tech_session');
+                window.location.href = 'index.html';
+                return false;
+            }
+        }
+        
+        function logout() {
+            localStorage.removeItem('tech_session');
+            window.location.href = 'index.html';
+        }
+        
+        checkAuth();
+    </script>
+</body>
+</html>

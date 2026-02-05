@@ -1,0 +1,168 @@
+{
+  "sites": [
+    {
+      "siteId": "68574625c11abf5f2a2f38fb",
+      "name": "default",
+      "desc": "Default",
+      "location": "New York (America/New_York)",
+      "gateway": "UDMPRO",
+      "gatewayMac": "0c:ea:14:d6:a4:11",
+      "devices": {
+        "total": 21,
+        "wifi": 17,
+        "wired": 3,
+        "offline": 0
+      },
+      "clients": {
+        "total": 337,
+        "wifi": 246,
+        "wired": 64,
+        "guest": 27
+      },
+      "wan": {
+        "provider": "Comcast Cable",
+        "ip": "50.251.187.37",
+        "uptime": 100
+      },
+      "alerts": 0
+    },
+    {
+      "siteId": "6955d7ba43f1f93b98b1388b",
+      "name": "default",
+      "desc": "Default",
+      "location": "Chicago (America/Chicago)",
+      "gateway": "UDMPROSE",
+      "gatewayMac": "6c:63:f8:68:28:2d",
+      "devices": {
+        "total": 70,
+        "wifi": 64,
+        "wired": 5,
+        "offline": 0
+      },
+      "clients": {
+        "total": 691,
+        "wifi": 162,
+        "wired": 529,
+        "guest": 0
+      },
+      "wan": {
+        "provider": "Frontier Communications",
+        "ip": "172.108.222.146",
+        "uptime": 100
+      },
+      "alerts": 0
+    },
+    {
+      "siteId": "6966f2e17121b87773bcf643",
+      "name": "default",
+      "desc": "Default",
+      "location": "Los Angeles (America/Los_Angeles)",
+      "gateway": "UDMPROSE",
+      "gatewayMac": "6c:63:f8:70:89:05",
+      "devices": {
+        "total": 7,
+        "wifi": 5,
+        "wired": 1,
+        "offline": 0
+      },
+      "clients": {
+        "total": 41,
+        "wifi": 35,
+        "wired": 6,
+        "guest": 0
+      },
+      "wan": {
+        "provider": "Spectrum Business",
+        "ip": "97.90.71.42",
+        "uptime": 100
+      },
+      "alerts": 0
+    },
+    {
+      "siteId": "6643dcb1ccc30e082fa1b925",
+      "name": "default",
+      "desc": "Default",
+      "location": "Denver (America/Denver)",
+      "gateway": "None",
+      "gatewayMac": null,
+      "devices": {
+        "total": 0,
+        "wifi": 0,
+        "wired": 0,
+        "offline": 0
+      },
+      "clients": {
+        "total": 0,
+        "wifi": 0,
+        "wired": 0,
+        "guest": 0
+      },
+      "wan": {
+        "provider": "N/A",
+        "ip": null,
+        "uptime": null
+      },
+      "alerts": 0
+    },
+    {
+      "siteId": "66452fd1b4d96a7d67b6b19a",
+      "name": "79i57v7i",
+      "desc": "Coventry (CloudKey)",
+      "location": "Los Angeles (America/Los_Angeles)",
+      "gateway": "CloudKey",
+      "gatewayMac": "e0:63:da:e3:5b:9a",
+      "devices": {
+        "total": 42,
+        "wifi": 36,
+        "wired": 5,
+        "offline": 2
+      },
+      "clients": {
+        "total": 211,
+        "wifi": 134,
+        "wired": 37,
+        "guest": 40
+      },
+      "wan": {
+        "provider": "N/A",
+        "ip": null,
+        "uptime": null
+      },
+      "alerts": 1
+    },
+    {
+      "siteId": "67a9c4bdb79a4d4f9157c91b",
+      "name": "default",
+      "desc": "Default",
+      "location": "Los Angeles (America/Los_Angeles)",
+      "gateway": "UDMPROMAX",
+      "gatewayMac": "28:70:4e:88:65:ad",
+      "devices": {
+        "total": 1,
+        "wifi": 0,
+        "wired": 0,
+        "offline": 0
+      },
+      "clients": {
+        "total": 147,
+        "wifi": 0,
+        "wired": 147,
+        "guest": 0
+      },
+      "wan": {
+        "provider": "Spectrum Business",
+        "ip": "71.66.152.114",
+        "uptime": 99.86
+      },
+      "alerts": 0
+    }
+  ],
+  "summary": {
+    "totalSites": 6,
+    "totalDevices": 141,
+    "totalClients": 1427,
+    "offlineDevices": 2,
+    "criticalAlerts": 1
+  },
+  "lastUpdated": "2026-02-05T09:43:00-06:00"
+}

@@ -1,0 +1,158 @@
+{
+  "sites": [
+    {
+      "name": "Safe Harbor Solutions",
+      "organization": "Frontier Management",
+      "network_id": "L_767863736466670438",
+      "type": "Meraki",
+      "devices": 4,
+      "gateway": "appliance",
+      "location": "N/A"
+    },
+    {
+      "name": "Frontier Management - Portland",
+      "organization": "Frontier Management",
+      "network_id": "L_767863736466670621",
+      "type": "Meraki",
+      "devices": 3,
+      "gateway": "appliance",
+      "location": "N/A"
+    },
+    {
+      "name": "Frontier Dallas Office",
+      "organization": "Frontier Management",
+      "network_id": "L_767863736466671837",
+      "type": "Meraki",
+      "devices": 1,
+      "gateway": "appliance",
+      "location": "N/A"
+    },
+    {
+      "name": "SHS Colo",
+      "organization": "Frontier Management",
+      "network_id": "L_767863736466671994",
+      "type": "Meraki",
+      "devices": 1,
+      "gateway": "appliance",
+      "location": "N/A"
+    },
+    {
+      "name": "Sache International",
+      "organization": "Frontier Management",
+      "network_id": "N_767863736466682099",
+      "type": "Meraki",
+      "devices": 1,
+      "gateway": "appliance",
+      "location": "N/A"
+    },
+    {
+      "name": "ID Boise - Overland Court - BSE002",
+      "organization": "Welltower - CIS",
+      "network_id": "L_565201753235000764",
+      "type": "Meraki",
+      "devices": 0,
+      "gateway": "appliance",
+      "location": "N/A"
+    },
+    {
+      "name": "WA Bremerton - Bay Pointe MC - BTN004",
+      "organization": "Welltower - CIS",
+      "network_id": "L_565201753235000809",
+      "type": "Meraki",
+      "devices": 0,
+      "gateway": "appliance",
+      "location": "N/A"
+    },
+    {
+      "name": "AZ Lake Havasu City - Lake View Terr. - LKH003",
+      "organization": "Welltower - CIS",
+      "network_id": "L_565201753235000883",
+      "type": "Meraki",
+      "devices": 10,
+      "gateway": "appliance",
+      "location": "N/A"
+    },
+    {
+      "name": "OR Happy Valley - Monterey Court - PRT000",
+      "organization": "Welltower - CIS",
+      "network_id": "L_565201753235000892",
+      "type": "Meraki",
+      "devices": 2,
+      "gateway": "appliance",
+      "location": "N/A"
+    },
+    {
+      "name": "MS Hattiesburg - Crescent Landing - HAT002",
+      "organization": "Welltower - CIS",
+      "network_id": "L_565201753235000906",
+      "type": "Meraki",
+      "devices": 35,
+      "gateway": "appliance",
+      "location": "N/A"
+    },
+    {
+      "name": "UT Ogden - The Auberge - OGD000",
+      "organization": "Welltower - CIS",
+      "network_id": "L_565201753235000933",
+      "type": "Meraki",
+      "devices": 28,
+      "gateway": "appliance",
+      "location": "N/A"
+    },
+    {
+      "name": "CIS TEST",
+      "organization": "Welltower - CIS",
+      "network_id": "L_565201753235001245",
+      "type": "Meraki",
+      "devices": 0,
+      "gateway": "appliance",
+      "location": "N/A"
+    },
+    {
+      "name": "GA Carrollton - Laurel Glen - CRO000",
+      "organization": "Welltower - QSL",
+      "network_id": "L_565201753235001039",
+      "type": "Meraki",
+      "devices": 29,
+      "gateway": "appliance",
+      "location": "N/A"
+    },
+    {
+      "name": "Euclid",
+      "organization": "Embassy - OH7 From Providence 2021",
+      "network_id": "N_670473394524783431",
+      "type": "Meraki",
+      "devices": 24,
+      "gateway": "wireless",
+      "location": "N/A"
+    },
+    {
+      "name": "Newark",
+      "organization": "Embassy - OH7 From Providence 2021",
+      "network_id": "N_670473394524783542",
+      "type": "Meraki",
+      "devices": 0,
+      "gateway": "wireless",
+      "location": "N/A"
+    },
+    {
+      "name": "Lyndhurst",
+      "organization": "Embassy - OH7 From Providence 2021",
+      "network_id": "N_670473394524783543",
+      "type": "Meraki",
+      "devices": 39,
+      "gateway": "wireless",
+      "location": "N/A"
+    },
+    {
+      "name": "Painesville",
+      "organization": "Embassy - OH7 From Providence 2021",
+      "network_id": "N_670473394524783546",
+      "type": "Meraki",
+      "devices": 12,
+      "gateway": "wireless",
+      "location": "N/A"
+    }
+  ],
+  "total": 17
+}

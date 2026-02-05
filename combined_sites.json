@@ -1,0 +1,316 @@
+{
+  "unifi_sites": 17,
+  "meraki_sites": 17,
+  "total_sites": 34,
+  "sites": [
+    {
+      "name": "New York",
+      "type": "unifi",
+      "id": "6848fbf602e5903ca0f66e13",
+      "devices": 21,
+      "clients": 157,
+      "status": "online",
+      "offline_devices": 0
+    },
+    {
+      "name": "LA (UDMPROMAX)",
+      "type": "unifi",
+      "id": "67ab654c9f03eb3e0587d5f2",
+      "devices": 1,
+      "clients": 39,
+      "status": "online",
+      "offline_devices": 0
+    },
+    {
+      "name": "Chicago",
+      "type": "unifi",
+      "id": "6955d7ba43f1f93b98b1388b",
+      "devices": 70,
+      "clients": 696,
+      "status": "online",
+      "offline_devices": 0
+    },
+    {
+      "name": "Site 6",
+      "type": "unifi",
+      "id": "6857640f1fec451e44eb5815",
+      "devices": 25,
+      "clients": 319,
+      "status": "offline",
+      "offline_devices": 2
+    },
+    {
+      "name": "Denver (Empty)",
+      "type": "unifi",
+      "id": "6643dcb1ccc30e082fa1b925",
+      "devices": 0,
+      "clients": 0,
+      "status": "online",
+      "offline_devices": 0
+    },
+    {
+      "name": "Coventry (CloudKey)",
+      "type": "unifi",
+      "id": "66452fd1b4d96a7d67b6b19a",
+      "devices": 42,
+      "clients": 189,
+      "status": "offline",
+      "offline_devices": 2
+    },
+    {
+      "name": "Site 7",
+      "type": "unifi",
+      "id": "6854a088d09b666dc861c18b",
+      "devices": 25,
+      "clients": 219,
+      "status": "offline",
+      "offline_devices": 1
+    },
+    {
+      "name": "Site 8",
+      "type": "unifi",
+      "id": "68574625c11abf5f2a2f38fb",
+      "devices": 21,
+      "clients": 321,
+      "status": "online",
+      "offline_devices": 0
+    },
+    {
+      "name": "Site 9",
+      "type": "unifi",
+      "id": "609ab7fc40912e03a1d38b53",
+      "devices": 6,
+      "clients": 13,
+      "status": "offline",
+      "offline_devices": 1
+    },
+    {
+      "name": "Site 10",
+      "type": "unifi",
+      "id": "684205cf88fe37101c5958bd",
+      "devices": 28,
+      "clients": 181,
+      "status": "online",
+      "offline_devices": 0
+    },
+    {
+      "name": "Site 11",
+      "type": "unifi",
+      "id": "67c7fa8c15557b4bd985861b",
+      "devices": 1,
+      "clients": 221,
+      "status": "online",
+      "offline_devices": 0
+    },
+    {
+      "name": "Site 12",
+      "type": "unifi",
+      "id": "6966f2e17121b87773bcf643",
+      "devices": 7,
+      "clients": 46,
+      "status": "online",
+      "offline_devices": 0
+    },
+    {
+      "name": "Site 13",
+      "type": "unifi",
+      "id": "6857131ae6d1795151aacf60",
+      "devices": 25,
+      "clients": 340,
+      "status": "offline",
+      "offline_devices": 2
+    },
+    {
+      "name": "Site 14",
+      "type": "unifi",
+      "id": "68434b5596f65b5b8493ec59",
+      "devices": 43,
+      "clients": 358,
+      "status": "online",
+      "offline_devices": 0
+    },
+    {
+      "name": "Site 15",
+      "type": "unifi",
+      "id": "67a9c4bdb79a4d4f9157c91b",
+      "devices": 1,
+      "clients": 155,
+      "status": "online",
+      "offline_devices": 0
+    },
+    {
+      "name": "Site 16",
+      "type": "unifi",
+      "id": "68af79495bb96d03a4486946",
+      "devices": 27,
+      "clients": 329,
+      "status": "online",
+      "offline_devices": 0
+    },
+    {
+      "name": "Site 17",
+      "type": "unifi",
+      "id": "68433ca893354f1b332f8055",
+      "devices": 26,
+      "clients": 207,
+      "status": "online",
+      "offline_devices": 0
+    },
+    {
+      "name": "Safe Harbor Solutions",
+      "organization": "Frontier Management",
+      "network_id": "L_767863736466670438",
+      "type": "Meraki",
+      "devices": 4,
+      "gateway": "appliance",
+      "location": "N/A"
+    },
+    {
+      "name": "Frontier Management - Portland",
+      "organization": "Frontier Management",
+      "network_id": "L_767863736466670621",
+      "type": "Meraki",
+      "devices": 3,
+      "gateway": "appliance",
+      "location": "N/A"
+    },
+    {
+      "name": "Frontier Dallas Office",
+      "organization": "Frontier Management",
+      "network_id": "L_767863736466671837",
+      "type": "Meraki",
+      "devices": 1,
+      "gateway": "appliance",
+      "location": "N/A"
+    },
+    {
+      "name": "SHS Colo",
+      "organization": "Frontier Management",
+      "network_id": "L_767863736466671994",
+      "type": "Meraki",
+      "devices": 1,
+      "gateway": "appliance",
+      "location": "N/A"
+    },
+    {
+      "name": "Sache International",
+      "organization": "Frontier Management",
+      "network_id": "N_767863736466682099",
+      "type": "Meraki",
+      "devices": 1,
+      "gateway": "appliance",
+      "location": "N/A"
+    },
+    {
+      "name": "ID Boise - Overland Court - BSE002",
+      "organization": "Welltower - CIS",
+      "network_id": "L_565201753235000764",
+      "type": "Meraki",
+      "devices": 0,
+      "gateway": "appliance",
+      "location": "N/A"
+    },
+    {
+      "name": "WA Bremerton - Bay Pointe MC - BTN004",
+      "organization": "Welltower - CIS",
+      "network_id": "L_565201753235000809",
+      "type": "Meraki",
+      "devices": 0,
+      "gateway": "appliance",
+      "location": "N/A"
+    },
+    {
+      "name": "AZ Lake Havasu City - Lake View Terr. - LKH003",
+      "organization": "Welltower - CIS",
+      "network_id": "L_565201753235000883",
+      "type": "Meraki",
+      "devices": 10,
+      "gateway": "appliance",
+      "location": "N/A"
+    },
+    {
+      "name": "OR Happy Valley - Monterey Court - PRT000",
+      "organization": "Welltower - CIS",
+      "network_id": "L_565201753235000892",
+      "type": "Meraki",
+      "devices": 2,
+      "gateway": "appliance",
+      "location": "N/A"
+    },
+    {
+      "name": "MS Hattiesburg - Crescent Landing - HAT002",
+      "organization": "Welltower - CIS",
+      "network_id": "L_565201753235000906",
+      "type": "Meraki",
+      "devices": 35,
+      "gateway": "appliance",
+      "location": "N/A"
+    },
+    {
+      "name": "UT Ogden - The Auberge - OGD000",
+      "organization": "Welltower - CIS",
+      "network_id": "L_565201753235000933",
+      "type": "Meraki",
+      "devices": 28,
+      "gateway": "appliance",
+      "location": "N/A"
+    },
+    {
+      "name": "CIS TEST",
+      "organization": "Welltower - CIS",
+      "network_id": "L_565201753235001245",
+      "type": "Meraki",
+      "devices": 0,
+      "gateway": "appliance",
+      "location": "N/A"
+    },
+    {
+      "name": "GA Carrollton - Laurel Glen - CRO000",
+      "organization": "Welltower - QSL",
+      "network_id": "L_565201753235001039",
+      "type": "Meraki",
+      "devices": 29,
+      "gateway": "appliance",
+      "location": "N/A"
+    },
+    {
+      "name": "Euclid",
+      "organization": "Embassy - OH7 From Providence 2021",
+      "network_id": "N_670473394524783431",
+      "type": "Meraki",
+      "devices": 24,
+      "gateway": "wireless",
+      "location": "N/A"
+    },
+    {
+      "name": "Newark",
+      "organization": "Embassy - OH7 From Providence 2021",
+      "network_id": "N_670473394524783542",
+      "type": "Meraki",
+      "devices": 0,
+      "gateway": "wireless",
+      "location": "N/A"
+    },
+    {
+      "name": "Lyndhurst",
+      "organization": "Embassy - OH7 From Providence 2021",
+      "network_id": "N_670473394524783543",
+      "type": "Meraki",
+      "devices": 39,
+      "gateway": "wireless",
+      "location": "N/A"
+    },
+    {
+      "name": "Painesville",
+      "organization": "Embassy - OH7 From Providence 2021",
+      "network_id": "N_670473394524783546",
+      "type": "Meraki",
+      "devices": 12,
+      "gateway": "wireless",
+      "location": "N/A"
+    }
+  ],
+  "total_devices": 558,
+  "total_clients": 3790,
+  "offline_devices": 8
+}
