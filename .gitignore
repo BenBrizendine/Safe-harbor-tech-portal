@@ -8,3 +8,5 @@ __pycache__/
 .streamlit/secrets.toml
 streamlit.log
 nohup.out
+CREDENTIALS.md
+app_backup_simple_auth.py
