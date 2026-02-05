@@ -28,21 +28,28 @@ def refresh_unifi_sites():
         print(f"❌ Error: {result.get('error')}")
         return None
     
-    sites_data = result['data']
-    sites = sites_data.get('sites', []) if isinstance(sites_data, dict) else sites_data
+    # UniFi Cloud API returns nested data
+    sites = result['data']['data']
     
     print(f"✅ Found {len(sites)} UniFi sites")
     
     # Format for Tech Portal
     formatted_sites = []
     for site in sites:
+        meta = site.get('meta', {})
+        stats = site.get('statistics', {}).get('counts', {})
+        
+        # Get site name (prefer desc, fallback to name)
+        site_name = meta.get('desc', meta.get('name', 'Unknown'))
+        
         formatted_sites.append({
-            'name': site.get('meta', {}).get('name', 'Unknown'),
+            'name': site_name,
             'type': 'unifi',
-            'id': site.get('meta', {}).get('id'),
-            'devices': site.get('meta', {}).get('deviceCount', 0),
-            'clients': site.get('meta', {}).get('clientCount', 0),
-            'status': 'online' if site.get('meta', {}).get('isUp') else 'offline'
+            'id': site.get('siteId'),
+            'devices': stats.get('totalDevice', 0),
+            'clients': stats.get('wifiClient', 0) + stats.get('wiredClient', 0),
+            'offline_devices': stats.get('offlineDevice', 0),
+            'status': 'offline' if stats.get('offlineDevice', 0) > 0 else 'online'
         })
     
     return formatted_sites

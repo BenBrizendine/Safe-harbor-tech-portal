@@ -1,160 +1,196 @@
 {
-  "unifi_sites": 17,
+  "unifi_sites": 21,
   "meraki_sites": 17,
-  "total_sites": 34,
+  "total_sites": 38,
   "sites": [
     {
-      "name": "New York",
+      "name": "Default",
+      "type": "unifi",
+      "id": "6875d46e3b4a25213d099734",
+      "devices": 48,
+      "clients": 215,
+      "offline_devices": 0,
+      "status": "online"
+    },
+    {
+      "name": "Default",
       "type": "unifi",
       "id": "6848fbf602e5903ca0f66e13",
       "devices": 21,
-      "clients": 157,
-      "status": "online",
-      "offline_devices": 0
+      "clients": 154,
+      "offline_devices": 0,
+      "status": "online"
     },
     {
-      "name": "LA (UDMPROMAX)",
+      "name": "Default",
       "type": "unifi",
       "id": "67ab654c9f03eb3e0587d5f2",
       "devices": 1,
-      "clients": 39,
-      "status": "online",
-      "offline_devices": 0
+      "clients": 38,
+      "offline_devices": 0,
+      "status": "online"
     },
     {
-      "name": "Chicago",
+      "name": "Default",
       "type": "unifi",
       "id": "6955d7ba43f1f93b98b1388b",
       "devices": 70,
-      "clients": 696,
-      "status": "online",
-      "offline_devices": 0
+      "clients": 670,
+      "offline_devices": 0,
+      "status": "online"
     },
     {
-      "name": "Site 6",
+      "name": "Default",
       "type": "unifi",
       "id": "6857640f1fec451e44eb5815",
       "devices": 25,
-      "clients": 319,
-      "status": "offline",
-      "offline_devices": 2
+      "clients": 308,
+      "offline_devices": 2,
+      "status": "offline"
     },
     {
-      "name": "Denver (Empty)",
+      "name": "Default",
       "type": "unifi",
       "id": "6643dcb1ccc30e082fa1b925",
       "devices": 0,
       "clients": 0,
-      "status": "online",
-      "offline_devices": 0
+      "offline_devices": 0,
+      "status": "online"
     },
     {
-      "name": "Coventry (CloudKey)",
+      "name": "Coventry (CloudKey))",
       "type": "unifi",
       "id": "66452fd1b4d96a7d67b6b19a",
       "devices": 42,
-      "clients": 189,
-      "status": "offline",
-      "offline_devices": 2
+      "clients": 191,
+      "offline_devices": 2,
+      "status": "offline"
     },
     {
-      "name": "Site 7",
+      "name": "Default",
       "type": "unifi",
       "id": "6854a088d09b666dc861c18b",
       "devices": 25,
-      "clients": 219,
-      "status": "offline",
-      "offline_devices": 1
+      "clients": 213,
+      "offline_devices": 1,
+      "status": "offline"
     },
     {
-      "name": "Site 8",
+      "name": "Default",
       "type": "unifi",
       "id": "68574625c11abf5f2a2f38fb",
       "devices": 21,
-      "clients": 321,
-      "status": "online",
-      "offline_devices": 0
+      "clients": 318,
+      "offline_devices": 0,
+      "status": "online"
     },
     {
-      "name": "Site 9",
+      "name": "Default",
       "type": "unifi",
       "id": "609ab7fc40912e03a1d38b53",
       "devices": 6,
       "clients": 13,
-      "status": "offline",
-      "offline_devices": 1
+      "offline_devices": 1,
+      "status": "offline"
     },
     {
-      "name": "Site 10",
+      "name": "Default",
       "type": "unifi",
       "id": "684205cf88fe37101c5958bd",
       "devices": 28,
-      "clients": 181,
-      "status": "online",
-      "offline_devices": 0
+      "clients": 175,
+      "offline_devices": 0,
+      "status": "online"
     },
     {
-      "name": "Site 11",
+      "name": "Default",
       "type": "unifi",
       "id": "67c7fa8c15557b4bd985861b",
       "devices": 1,
-      "clients": 221,
-      "status": "online",
-      "offline_devices": 0
+      "clients": 213,
+      "offline_devices": 0,
+      "status": "online"
     },
     {
-      "name": "Site 12",
+      "name": "Default",
+      "type": "unifi",
+      "id": "64bfe8446af6680aa2ec118c",
+      "devices": 23,
+      "clients": 60,
+      "offline_devices": 2,
+      "status": "offline"
+    },
+    {
+      "name": "Default",
       "type": "unifi",
       "id": "6966f2e17121b87773bcf643",
       "devices": 7,
-      "clients": 46,
-      "status": "online",
-      "offline_devices": 0
+      "clients": 45,
+      "offline_devices": 0,
+      "status": "online"
     },
     {
-      "name": "Site 13",
+      "name": "Default",
       "type": "unifi",
       "id": "6857131ae6d1795151aacf60",
       "devices": 25,
-      "clients": 340,
-      "status": "offline",
-      "offline_devices": 2
+      "clients": 345,
+      "offline_devices": 2,
+      "status": "offline"
     },
     {
-      "name": "Site 14",
+      "name": "Default",
       "type": "unifi",
       "id": "68434b5596f65b5b8493ec59",
       "devices": 43,
-      "clients": 358,
-      "status": "online",
-      "offline_devices": 0
+      "clients": 368,
+      "offline_devices": 0,
+      "status": "online"
     },
     {
-      "name": "Site 15",
+      "name": "Default",
       "type": "unifi",
       "id": "67a9c4bdb79a4d4f9157c91b",
       "devices": 1,
-      "clients": 155,
-      "status": "online",
-      "offline_devices": 0
+      "clients": 154,
+      "offline_devices": 0,
+      "status": "online"
     },
     {
-      "name": "Site 16",
+      "name": "Default",
       "type": "unifi",
       "id": "68af79495bb96d03a4486946",
       "devices": 27,
-      "clients": 329,
-      "status": "online",
-      "offline_devices": 0
+      "clients": 334,
+      "offline_devices": 0,
+      "status": "online"
     },
     {
-      "name": "Site 17",
+      "name": "Default",
+      "type": "unifi",
+      "id": "67e30ebcd23d89016aba62ba",
+      "devices": 0,
+      "clients": 0,
+      "offline_devices": 0,
+      "status": "online"
+    },
+    {
+      "name": "Summer Wood - Main",
+      "type": "unifi",
+      "id": "6913a2847f774a01ad5714df",
+      "devices": 7,
+      "clients": 46,
+      "offline_devices": 1,
+      "status": "offline"
+    },
+    {
+      "name": "Default",
       "type": "unifi",
       "id": "68433ca893354f1b332f8055",
       "devices": 26,
-      "clients": 207,
-      "status": "online",
-      "offline_devices": 0
+      "clients": 203,
+      "offline_devices": 0,
+      "status": "online"
     },
     {
       "name": "Safe Harbor Solutions",
@@ -310,7 +346,7 @@
       "location": "N/A"
     }
   ],
-  "total_devices": 558,
-  "total_clients": 3790,
-  "offline_devices": 8
+  "total_devices": 636,
+  "total_clients": 4063,
+  "offline_devices": 7
 }
