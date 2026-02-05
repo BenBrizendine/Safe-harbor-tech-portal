@@ -10,3 +10,5 @@ streamlit.log
 nohup.out
 CREDENTIALS.md
 app_backup_simple_auth.py
+monitor_state.json
+monitor.log
