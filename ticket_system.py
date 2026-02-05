@@ -175,8 +175,8 @@ def get_ticket_stats() -> Dict:
     cursor.execute("SELECT COUNT(*) FROM tickets WHERE priority = 'critical' AND status NOT IN ('resolved', 'closed')")
     critical = cursor.fetchone()[0]
     
-    cursor.execute("SELECT COUNT(*) FROM tickets WHERE status IN ('resolved', 'closed') AND DATE(resolved_at) = DATE('now')")
-    resolved_today = cursor.fetchone()[0]
+    cursor.execute("SELECT COUNT(*) FROM tickets WHERE status IN ('resolved', 'closed')")
+    closed = cursor.fetchone()[0]
     
     conn.close()
     
@@ -184,7 +184,7 @@ def get_ticket_stats() -> Dict:
         'open': open_count,
         'in_progress': in_progress,
         'critical': critical,
-        'resolved_today': resolved_today
+        'closed': closed
     }
 
 

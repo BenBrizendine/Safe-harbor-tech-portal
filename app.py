@@ -9,7 +9,13 @@ import os
 import subprocess
 import hashlib
 from datetime import datetime
-from ticket_system import get_tickets, get_ticket_stats, create_ticket, update_ticket
+from ticket_system import get_tickets, get_ticket_stats, create_ticket, update_ticket, init_database
+
+# Initialize database on startup
+try:
+    init_database()
+except Exception as e:
+    pass  # Database already exists
 
 # Page config
 st.set_page_config(
@@ -431,15 +437,18 @@ with tab5:
     st.subheader("🎫 Service Tickets")
     
     # Ticket stats
-    stats = get_ticket_stats()
-    
-    col_open, col_progress, col_closed = st.columns(3)
-    with col_open:
-        st.metric("Open", stats['open'])
-    with col_progress:
-        st.metric("In Progress", stats['in_progress'])
-    with col_closed:
-        st.metric("Closed", stats['closed'])
+    try:
+        stats = get_ticket_stats()
+        
+        col_open, col_progress, col_closed = st.columns(3)
+        with col_open:
+            st.metric("Open", stats['open'])
+        with col_progress:
+            st.metric("In Progress", stats['in_progress'])
+        with col_closed:
+            st.metric("Closed", stats.get('closed', 0))
+    except Exception as e:
+        st.warning(f"⚠️ Ticket database initializing... Refresh page in a moment.")
     
     # Create new ticket
     with st.expander("➕ Create New Ticket"):
